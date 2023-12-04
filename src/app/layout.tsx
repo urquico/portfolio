@@ -20,7 +20,7 @@ export default function RootLayout({
       <head>
         <ColorSchemeScript />
       </head>
-      <body>
+      <body className='bg-zinc-950 overflow-x-hidden'>
         <MantineProvider>{children}</MantineProvider>
       </body>
     </html>
