@@ -1,3 +1,4 @@
+import Navigation from '@/components/navigation';
 import { ColorSchemeScript, MantineProvider } from '@mantine/core';
 import '@mantine/core/styles.css';
 import type { Metadata } from 'next';
@@ -21,7 +22,11 @@ export default function RootLayout({
         <ColorSchemeScript />
       </head>
       <body className='bg-zinc-950 overflow-x-hidden'>
-        <MantineProvider>{children}</MantineProvider>
+        <MantineProvider>
+          {/* Navigation */}
+          <Navigation />
+          {children}
+        </MantineProvider>
       </body>
     </html>
   );
