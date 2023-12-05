@@ -3,6 +3,7 @@
 import { links } from '@/lib/constants/links-data';
 import { cn } from '@/lib/utils';
 import { Text } from '@mantine/core';
+import { IconArrowNarrowRight } from '@tabler/icons-react';
 import { usePathname } from 'next/navigation';
 import React from 'react';
 
@@ -23,6 +24,9 @@ function Navigation() {
             )}
             key={link.label}
           >
+            {pathname.includes(link.path) && (
+              <IconArrowNarrowRight size={20} className='inline-block mr-2' />
+            )}
             {link.label}
           </Text>
         );
