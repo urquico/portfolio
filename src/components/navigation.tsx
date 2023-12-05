@@ -10,15 +10,16 @@ function Navigation() {
   const pathname = usePathname();
 
   return (
-    <div className='fixed text-white top-10 right-10 z-50'>
+    <div className='fixed text-white top-10 right-10 z-50 flex flex-col'>
       {links.map((link) => {
-        console.log(pathname.includes('/home'));
-
         return (
           <Text
+            component='a'
+            href={link.path}
             className={cn(
-              'text-right',
-              pathname.includes(link.label) && 'font-bold text-3xl',
+              'motion-safe:animate-pulse text-right text-zinc-500',
+              pathname.includes(link.path) &&
+                'font-bold text-3xl hover:underline text-white hover:text-3xl ',
             )}
             key={link.label}
           >

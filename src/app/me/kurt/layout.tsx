@@ -1,3 +1,4 @@
+import Navigation from '@/components/navigation';
 import type { Metadata } from 'next';
 import React from 'react';
 
@@ -14,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <head></head>
-      <body className='bg-zinc-950 overflow-x-hidden'>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }

@@ -6,16 +6,25 @@ import React from 'react';
 
 function Home() {
   return (
-    <div className='flex flex-col place-items-center'>
+    <main className='flex flex-col place-items-center'>
       <BackgroundImage
-        className='h-[70vh] w-screen rounded-[3rem] bg-top blur-3xl bg-fixed'
+        className='h-[70vh] w-screen rounded-[3rem] bg-top blur-3xl bg-fixed flex justify-end'
         src='/kid-a.png'
       >
         <Overlay
           gradient='linear-gradient(145deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.95) 100%)'
           opacity={0.85}
-          className='h-[70vh] w-screen rounded-[3rem] blur-3xl bg-fixed z-40'
+          className='h-[70vh] w-screen rounded-[3rem] blur-3xl bg-fixed z-30'
         />
+        <Text
+          component='a'
+          href='https://www.reddit.com/r/radiohead/comments/14cnhhz/animated_kid_a_wallpaper_in_4k_zoomed_out_with_ai/'
+          target='_blank'
+          fz='sm'
+          className='place-self-end mr-10 mb-4 z-40 text-neutral-400 hover:underline hover:text-neutral-200'
+        >
+          Kid A Album by Radiohead expanded by AI
+        </Text>
       </BackgroundImage>
 
       {/* Avatar */}
@@ -45,7 +54,7 @@ function Home() {
           );
         })}
       </div> */}
-    </div>
+    </main>
   );
 }
 

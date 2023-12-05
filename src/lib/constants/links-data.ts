@@ -1,22 +1,22 @@
 export const links = [
   {
-    label: 'Home',
-    path: '/home',
+    label: 'Kurt',
+    path: '/me/kurt',
   },
   {
     label: 'About',
-    path: '/about',
+    path: '/me/about',
   },
   {
     label: 'Projects',
-    path: '/projects',
+    path: '/me/projects',
   },
   {
     label: 'Stacks',
-    path: '/stacks',
+    path: '/me/stacks',
   },
   {
     label: 'Contact',
-    path: '/contact',
+    path: '/me/contacts',
   },
 ];
