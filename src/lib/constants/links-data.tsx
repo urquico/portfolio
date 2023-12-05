@@ -28,7 +28,7 @@ export const links = [
 ];
 
 export const socials = [
-  { label: 'Github', path: '/', icon: <IconBrandGithub size={14} /> },
+  { label: 'GitHub', path: '/', icon: <IconBrandGithub size={14} /> },
   { label: 'LinkedIn', path: '/', icon: <IconBrandLinkedin size={14} /> },
   { label: 'Read.CV', path: '/', icon: <IconFileCv size={14} /> },
 ];
