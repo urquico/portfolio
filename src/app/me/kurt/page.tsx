@@ -1,8 +1,5 @@
 import AvatarProfile from '@/components/avatar-profile';
 import ButtonLinks from '@/components/button-links';
-import Navigation from '@/components/navigation';
-import Stack from '@/components/stack';
-import { stackData } from '@/lib/constants/stack-data';
 import { BackgroundImage, Overlay, Text } from '@mantine/core';
 import React from 'react';
 
