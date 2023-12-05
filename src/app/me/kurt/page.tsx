@@ -1,15 +1,16 @@
 import AvatarProfile from '@/components/avatar-profile';
+import ButtonLinks from '@/components/button-links';
 import Navigation from '@/components/navigation';
 import Stack from '@/components/stack';
 import { stackData } from '@/lib/constants/stack-data';
-import { BackgroundImage, Image, Overlay, Text } from '@mantine/core';
+import { BackgroundImage, Overlay, Text } from '@mantine/core';
 import React from 'react';
 
 function Home() {
   return (
     <main className='flex flex-col place-items-center'>
       <BackgroundImage
-        className='h-[70vh] max-md:h-[50vh] w-screen rounded-[3rem] bg-top blur-3xl bg-fixed flex justify-end'
+        className='h-[70vh] max-md:h-[50vh] w-screen rounded-[3rem] bg-top  max-md:bg-[center_bottom_9rem] blur-3xl bg-fixed flex justify-end'
         src='/kid-a.png'
       >
         <Overlay
@@ -28,7 +29,11 @@ function Home() {
         </Text>
       </BackgroundImage>
 
+      {/* Avatar */}
       <AvatarProfile />
+
+      {/* Socials */}
+      <ButtonLinks />
 
       {/* Stack */}
       {/* <div className='w-[40vw] grid grid-cols-4 gap-4 mx-20 my-10 justify-items-center'>

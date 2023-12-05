@@ -16,7 +16,7 @@ function AvatarProfile() {
       {/* Name Info */}
       <div className='ml-4 mt-4 max-md:text-center'>
         <Text className='text-zinc-300 font-bold text-4xl'>
-          Kurt Jacob E. Urquico
+          Kurt Jacob Urquico
         </Text>
         <Text className='text-zinc-500'>Web Developer</Text>
       </div>
