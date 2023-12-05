@@ -1,4 +1,5 @@
-import { ColorSchemeScript, MantineProvider } from '@mantine/core';
+import Providers from '@/components/providers';
+import { ColorSchemeScript } from '@mantine/core';
 import '@mantine/core/styles.css';
 import type { Metadata } from 'next';
 import React from 'react';
@@ -20,8 +21,8 @@ export default function RootLayout({
       <head>
         <ColorSchemeScript />
       </head>
-      <body>
-        <MantineProvider>{children}</MantineProvider>
+      <body className='bg-zinc-950 overflow-x-hidden'>
+        <Providers>{children}</Providers>
       </body>
     </html>
   );
