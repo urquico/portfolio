@@ -28,7 +28,19 @@ export const links = [
 ];
 
 export const socials = [
-  { label: 'GitHub', path: '/', icon: <IconBrandGithub size={14} /> },
-  { label: 'LinkedIn', path: '/', icon: <IconBrandLinkedin size={14} /> },
-  { label: 'Read.CV', path: '/', icon: <IconFileCv size={14} /> },
+  {
+    label: 'GitHub',
+    path: 'https://github.com/urquico',
+    icon: <IconBrandGithub size={14} />,
+  },
+  {
+    label: 'LinkedIn',
+    path: 'https://www.linkedin.com/in/kurturquico/',
+    icon: <IconBrandLinkedin size={14} />,
+  },
+  {
+    label: 'Read.CV',
+    path: 'https://read.cv/urquico',
+    icon: <IconFileCv size={14} />,
+  },
 ];
