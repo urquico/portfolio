@@ -17,7 +17,7 @@ function ButtonLinks() {
             target='_blank'
             variant='default'
             className={cn(
-              'hover:bg-zinc-950 hover:text-white transition ease-in-out duration-300 max-md:w-72',
+              'bg-zinc-950 text-white hover:bg-white hover:text-zinc-950 transition ease-in-out duration-300 max-md:w-72',
               {},
             )}
           >
