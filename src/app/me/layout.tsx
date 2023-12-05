@@ -1,24 +1,17 @@
 import Navigation from '@/components/navigation';
-import type { Metadata } from 'next';
+import { Metadata } from 'next';
 import React from 'react';
 
 export const metadata: Metadata = {
-  title: 'Urquico',
+  title: 'Dev',
   description: 'Portfolio',
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function MeLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang='en'>
-      <head></head>
-      <body className='bg-zinc-950 overflow-x-hidden'>
-        <Navigation />
-        {children}
-      </body>
-    </html>
+    <main className='bg-zinc-950 overflow-x-hidden'>
+      <Navigation />
+      {children}
+    </main>
   );
 }
