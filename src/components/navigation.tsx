@@ -17,9 +17,9 @@ function Navigation() {
             component='a'
             href={link.path}
             className={cn(
-              'motion-safe:animate-pulse text-right text-zinc-500',
+              'motion-safe:animate-pulse transition ease-in-out text-base text-right text-zinc-500 hover:text-white hover:text-3xl hover:font-bold',
               pathname.includes(link.path) &&
-                'font-bold text-3xl hover:underline text-white hover:text-3xl ',
+                'font-bold text-3xl hover:underline text-red-600 hover:text-3xl hover:text-white',
             )}
             key={link.label}
           >
