@@ -4,13 +4,13 @@ import React from 'react';
 function Banner() {
   return (
     <BackgroundImage
-      className='h-[70vh] max-md:h-[45vh] w-screen rounded-[3rem] bg-top max-md:bg-[center_bottom_9rem] blur-3xl bg-fixed flex justify-end'
+      className='h-[70vh] max-md:h-[25vh] w-screen rounded-[3rem] bg-top max-md:bg-[center_bottom_9rem] blur-3xl bg-fixed flex justify-end'
       src='/kid-a.png'
     >
       <Overlay
         gradient='linear-gradient(145deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.95) 100%)'
         opacity={0.85}
-        className='h-[70vh] max-md:h-[45vh] w-screen rounded-[3rem] blur-3xl bg-fixed z-30'
+        className='h-[70vh] max-md:h-[25vh] w-screen rounded-[3rem] blur-3xl bg-fixed z-30'
       />
       <Text
         component='a'
