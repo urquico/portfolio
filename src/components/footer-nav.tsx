@@ -8,9 +8,8 @@ function FooterNav() {
   const pathname = usePathname();
 
   return (
-    <div className='w-full justify-center hidden max-md:flex'>
-      <div className='absolute bottom-8 bg-zinc-800 p-4 flex rounded-full gap-4 '>
-        {/* <Text c='white'>Test</Text> */}
+    <div className='w-full justify-center hidden max-md:flex max-md:mt-24 '>
+      <div className='hidden fixed bottom-8 bg-zinc-800 p-4 max-md:flex rounded-full gap-4 z-50'>
         {links.map((link, index) => {
           return (
             <a
