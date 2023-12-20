@@ -7,7 +7,7 @@ import React from 'react';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Urquico',
+  title: 'Kurt | Dev',
   description: 'Portfolio',
 };
 
@@ -21,7 +21,7 @@ export default function RootLayout({
       <head>
         <ColorSchemeScript />
       </head>
-      <body className='bg-zinc-950 overflow-x-hidden'>
+      <body className='bg-zinc-950'>
         <Providers>{children}</Providers>
       </body>
     </html>

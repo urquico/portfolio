@@ -2,11 +2,11 @@ import type { Metadata } from 'next';
 import React from 'react';
 
 export const metadata: Metadata = {
-  title: 'Kurt | Dev',
-  description: 'Home Page',
+  title: 'About | Kurt',
+  description: 'Portfolio',
 };
 
-export default function KurtLayout({
+export default function AboutLayout({
   children,
 }: {
   children: React.ReactNode;
