@@ -1,6 +1,5 @@
 
 import React from 'react';
-
 import AboutSection from './about-section';
 import NameDisplay from './name-display';
 import SkillFocus from './skill-focus';
