@@ -1,6 +1,8 @@
 import { BackgroundImage, Overlay, Text } from '@mantine/core';
 import React from 'react';
 
+import React from 'react';
+
 function Banner() {
   return (
     <BackgroundImage
