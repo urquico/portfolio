@@ -6,15 +6,21 @@ import {
 import React from 'react';
 
 function SkillFocus() {
+  // Centralized container class for consistency
+  const containerClass = 'w-[36rem] px-12 py-4 max-md:w-full flex flex-col gap-4 mt-4';
   return (
-    <div className='w-[36rem] px-12 py-4 max-md:w-full flex flex-col gap-4 mt-4'>
-      <Text className='text-3xl text-white font-bold'>
+    <div className='skill-focus-container'>
+      // The Text component from Mantine is used to render typographic elements.
+// Here, it is used to display the 'Skills & Focus' section heading with styling.
+<Text className='text-3xl text-white font-bold'>
         🚀 Skills & Focus
         <IconArrowWaveRightDown size={20} className='inline-block ml-2' />
       </Text>
       <Text className='text-white font-semibold'>Frontend Development</Text>
       <Text className='text-zinc-500 indent-6'>
-        <IconCornerDownRight size={20} className='inline-block mr-2' /> Crafting
+        // The IconCornerDownRight from Tabler Icons React represents a pointer.
+// It indicates the start of each skill description for visual emphasis.
+<IconCornerDownRight size={20} className='inline-block mr-2' /> Crafting
         responsive and visually appealing user interfaces.
       </Text>
       <Text className='text-zinc-500 indent-6'>
@@ -53,7 +59,7 @@ function SkillFocus() {
       </Text>
 
       {/* Links */}
-      <div className='w-[36rem] px-12 py-4 max-md:w-full flex flex-col gap-4 mt-4'>
+      <div>
         <Text className='text-zinc-500 text-sm'>
           Check out my{' '}
           <a href='/me/projects' className='text-zinc-500 hover:text-white'>
