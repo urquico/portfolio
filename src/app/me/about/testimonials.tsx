@@ -1,4 +1,5 @@
 import Carousel from '@/app/me/about/Carousel';
+// Carousel component for the 'About' section
 import { Text } from '@mantine/core';
 import { IconArrowWaveRightDown } from '@tabler/icons-react';
 import React from 'react';
