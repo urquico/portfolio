@@ -1,6 +1,3 @@
-/**
- * This file defines the Carousel component used in the 'About' page to display testimonials.
- */
 'use client';
 
 import { Blockquote, Image, Paper, Text } from '@mantine/core';
