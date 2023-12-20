@@ -3,6 +3,8 @@ import { Text } from '@mantine/core';
 import { IconArrowWaveRightDown } from '@tabler/icons-react';
 import React from 'react';
 
+import React from 'react';
+
 function Testimonials() {
   return (
     <div className='w-[36rem] px-12 py-4 max-md:w-full flex flex-col gap-4 mt-4'>
