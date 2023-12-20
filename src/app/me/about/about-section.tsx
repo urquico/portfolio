@@ -1,4 +1,4 @@
-import { Text } from '@mantine/core';
+
 import { IconArrowWaveRightDown } from '@tabler/icons-react';
 import React from 'react';
 import { textVide } from 'text-vide';
