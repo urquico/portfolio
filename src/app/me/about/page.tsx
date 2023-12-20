@@ -1,3 +1,5 @@
+import Maintenance from '@/components/maintenance';
+import { aboutMaintenance } from '@/lib/constants/maintenance-message';
 import React from 'react';
 
 import AboutSection from './about-section';
