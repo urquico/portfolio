@@ -22,7 +22,6 @@ function page() {
       {/* Skills & Focus */}
       <SkillFocus />
 
-      {/* Testimonials */}
       <Testimonials />
     </main>
   );
