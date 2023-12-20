@@ -37,7 +37,7 @@ function Carousel() {
       spaceBetween={10}
       slidesPerView={1}
       loop={true}
-      //   onSlideChange={() => console.log('slide change')}
+
       //   onSwiper={(swiper) => console.log(swiper)}
       className='w-full h-auto -z-50 my-4'
     >
