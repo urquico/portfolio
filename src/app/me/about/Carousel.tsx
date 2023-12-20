@@ -1,6 +1,3 @@
-/**
- * This file defines the Carousel component used in the 'About' page to display testimonials.
- */
 'use client';
 
 import { Blockquote, Image, Paper, Text } from '@mantine/core';
@@ -16,6 +13,7 @@ type Testimonial = {
   quote: string;
   image: string;
 };
+
 
 // Carousel is a React component that renders a carousel of testimonials. It doesn't take any props.
 function Carousel() {
