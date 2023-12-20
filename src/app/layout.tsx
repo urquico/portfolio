@@ -1,6 +1,4 @@
-/**
- * This file defines the root layout of the application, including the HTML structure and global providers.
- */
+
 
 import Providers from '@/components/providers';
 import { ColorSchemeScript } from '@mantine/core';
