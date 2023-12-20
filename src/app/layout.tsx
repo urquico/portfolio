@@ -1,23 +1,22 @@
-/**
- * This file defines the root layout of the application, including the HTML structure and global providers.
- */
+// RootLayout is the top-level React component that provides the overall HTML structure
+// and includes essential providers for theming, routing, data management, etc.
+// It wraps the application's content, enabling consistent styles and behaviors across pages.
 
 import Providers from '@/components/providers';
 import { ColorSchemeScript } from '@mantine/core';
-import '@mantine/core/styles.css';
 import type { Metadata } from 'next';
 import React from 'react';
 
-import './globals.css';
+// Global CSS imports are unnecessary here and should be included in _app.tsx
 
-// Metadata for the root layout, including the title and description.
+// Metadata associated with the RootLayout, typically used for head elements like title and meta tags in Next.js pages.
 export const metadata: Metadata = {
   title: 'Kurt | Dev',
   description: 'Portfolio',
 };
 
-// RootLayout is a React component that renders the root layout of the application.
-// It takes 'children' as a prop and wraps them with the global providers.
+// The RootLayout component acts as a container for all other page components.
+// It accepts 'children' props and ensures that they are provided with the necessary context by wrapping them in <Providers />.
 export default function RootLayout({
   children,
 }: {
