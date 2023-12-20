@@ -1,27 +1,35 @@
 export const aboutMaintenance = {
+  // This message appears when the 'About Me' page is under construction.
+  // It informs the viewer that the content is in the process of being updated.
   emoji: '🚧',
-  title: 'Oops!',
-  subtitle: 'The About Me page is currently under construction.',
-  description: `I'm working on sharing my journey and passion with you. Thanks for being patient with me!`,
+  title: 'Under Construction',
+  subtitle: 'The About Me page is being updated.',
+  description: `Updates are on the way to share my journey and passion. Your patience is appreciated!`,
 };
 
 export const projectsMaintenance = {
+  // This message is displayed when the 'Projects' page is being updated.
+  // It serves as a notice to visitors that improvements are being made.
   emoji: '⚠️',
-  title: 'Hey there!',
-  subtitle: 'The Projects page is undergoing a makeover.',
-  description: `I'm fine-tuning it to showcase my work. Stay tuned for the big reveal!`,
+  title: 'Undergoing Improvements',
+  subtitle: 'The Projects page is receiving updates.',
+  description: `Stay tuned to explore the enhanced showcase of my work.`,
 };
 
 export const stacksMaintenance = {
+  // This message indicates that the 'Stacks' page content is currently being developed.
+  // It invites viewers to return later to discover the preferred tech stacks.
   emoji: '🛠️',
-  title: 'Bummer!',
-  subtitle: 'The Stacks page is a work in progress.',
-  description: `I'm putting together the details to share the tech stacks I love. Check back soon for more insights!`,
+  title: 'Content in Progress',
+  subtitle: 'The Stacks page is being crafted.',
+  description: `Compiling the details of the tech stacks I prefer. Stay tuned for insights!`,
 };
 
 export const contactMaintenance = {
+  // This alert is for when the 'Contacts' page is temporarily unavailable due to updates.
+  // It reassures users that they can still get in touch through alternative methods.
   emoji: '⚡️',
-  title: 'Heads up!',
-  subtitle: 'The Contacts page is taking a short break.',
-  description: `I'm upgrading the experience, but you can still reach out through other channels in the meantime!`,
+  title: 'Temporary Unavailability',
+  subtitle: 'Upgrading the Contacts page.',
+  description: `Enhancing your experience; meanwhile, please use alternate channels to connect.`,
 };
