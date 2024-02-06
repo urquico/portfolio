@@ -1,6 +1,6 @@
-import AvatarProfile from '@/components/avatar-profile';
-import Banner from '@/components/banner';
-import ButtonLinks from '@/components/button-links';
+import AvatarProfile from '@/app/me/kurt/avatar-profile';
+import Banner from '@/app/me/kurt/banner';
+import ButtonLinks from '@/app/me/kurt/button-links';
 import React from 'react';
 
 function Home() {

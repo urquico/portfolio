@@ -25,7 +25,7 @@ function Navigation() {
   return (
     <>
       {/* Mobile Navigation */}
-      <div className='flex flex-col top-10 right-10 z-50 fixed place-items-end'>
+      <div className='flex flex-col top-10 right-10 z-50 fixed place-items-end max-md:hidden'>
         <Burger
           size='sm'
           opened={opened}
