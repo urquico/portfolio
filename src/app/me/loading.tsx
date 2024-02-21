@@ -1,5 +1,5 @@
 import { MantineProvider, Text } from '@mantine/core';
-import { IconFidgetSpinner } from '@tabler/icons-react';
+import {  } from '@tabler/icons-react';
 
 export default function Loading() {
   // You can add any UI inside Loading, including a Skeleton.
