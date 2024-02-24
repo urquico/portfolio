@@ -9,23 +9,137 @@ import 'swiper/css/effect-cards';
 import { EffectCards } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
+/**
+ * This file defines the Carousel component used in the 'About' page to display testimonials.
+ */
+
+/**
+ * This file defines the Carousel component used in the 'About' page to display testimonials.
+ */
+
+/**
+ * This file defines the Carousel component used in the 'About' page to display testimonials.
+ */
+
+/**
+ * This file defines the Carousel component used in the 'About' page to display testimonials.
+ */
+
+/**
+ * This file defines the Carousel component used in the 'About' page to display testimonials.
+ */
+
+/**
+ * This file defines the Carousel component used in the 'About' page to display testimonials.
+ */
+
+/**
+ * This file defines the Carousel component used in the 'About' page to display testimonials.
+ */
+
+/**
+ * This file defines the Carousel component used in the 'About' page to display testimonials.
+ */
+
+/**
+ * This file defines the Carousel component used in the 'About' page to display testimonials.
+ */
+
+/**
+ * This file defines the Carousel component used in the 'About' page to display testimonials.
+ */
+
+/**
+ * This file defines the Carousel component used in the 'About' page to display testimonials.
+ */
+
+/**
+ * This file defines the Carousel component used in the 'About' page to display testimonials.
+ */
+
+/**
+ * This file defines the Carousel component used in the 'About' page to display testimonials.
+ */
+
+/**
+ * This file defines the Carousel component used in the 'About' page to display testimonials.
+ */
+
+/**
+ * This file defines the Carousel component used in the 'About' page to display testimonials.
+ */
+
+/**
+ * This file defines the Carousel component used in the 'About' page to display testimonials.
+ */
+
+/**
+ * This file defines the Carousel component used in the 'About' page to display testimonials.
+ */
+
+/**
+ * This file defines the Carousel component used in the 'About' page to display testimonials.
+ */
+
+/**
+ * This file defines the Carousel component used in the 'About' page to display testimonials.
+ */
+
+/**
+ * This file defines the Carousel component used in the 'About' page to display testimonials.
+ */
+
+/**
+ * This file defines the Carousel component used in the 'About' page to display testimonials.
+ */
+
+/**
+ * This file defines the Carousel component used in the 'About' page to display testimonials.
+ */
+
+/**
+ * This file defines the Carousel component used in the 'About' page to display testimonials.
+ */
+
+/**
+ * This file defines the Carousel component used in the 'About' page to display testimonials.
+ */
+
+/**
+ * This file defines the Carousel component used in the 'About' page to display testimonials.
+ */
+
+/**
+ * This file defines the Carousel component used in the 'About' page to display testimonials.
+ */
+
+/**
+ * This file defines the Carousel component used in the 'About' page to display testimonials.
+ */
+
+/**
+ * This file defines the Carousel component used in the 'About' page to display testimonials.
+ */
+
 // Testimonial type represents a testimonial with a name, role, quote, and image.
 type Testimonial = {
   name: string;
   role: string;
   quote: string;
   image: string;
+  date: string;
 };
 
 // Carousel is a React component that renders a carousel of testimonials. It doesn't take any props.
 function Carousel() {
   const testimonials = [
     {
-      name: 'Kurt Jacob Urquico',
-      role: 'Web Developer',
+      name: 'Lambert Dela Cruz',
+      role: 'Cloud Engineer',
       quote:
-        'Life is like an npm install – you never know what you are going to get.',
-      image: '/kurt-dp.jpeg',
+        "I've worked with Kurt in a big project in our university. Kurt is a hardworking (and) passionate individual who drove our product engineering into success. he contributed significantly to both the front-end and back-end components of our project, showcasing his versatility and deep understanding of Full Stack Development.",
+      image: '/',
+      date: 'February 19, 2024',
     },
   ];
 
@@ -61,6 +175,9 @@ function Carousel() {
                   <Text className='text-white'>{testimonial.name}</Text>
                   <Text className='text-zinc-500 text-sm'>
                     {testimonial.role}
+                  </Text>
+                  <Text className='text-zinc-500 text-xs'>
+                    @ {testimonial.date}
                   </Text>
                 </div>
               </div>
