@@ -1,5 +1,4 @@
 import { Image } from '@mantine/core';
-import React from 'react';
 
 interface StackProps {
   src: string;

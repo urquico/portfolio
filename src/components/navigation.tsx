@@ -6,7 +6,7 @@ import { Burger, Text } from '@mantine/core';
 import { useDisclosure, useMediaQuery } from '@mantine/hooks';
 import { IconArrowNarrowRight } from '@tabler/icons-react';
 import { usePathname } from 'next/navigation';
-import React, { useEffect } from 'react';
+import  { useEffect } from 'react';
 
 function Navigation() {
   const pathname = usePathname();

@@ -1,12 +1,11 @@
 /**
  * This file defines the root layout of the application, including the HTML structure and global providers.
  */
-
 import Providers from '@/components/providers';
 import { ColorSchemeScript } from '@mantine/core';
 import '@mantine/core/styles.css';
 import type { Metadata } from 'next';
-import React from 'react';
+import { ReactNode } from 'react';
 
 import './globals.css';
 
@@ -18,11 +17,7 @@ export const metadata: Metadata = {
 
 // RootLayout is a React component that renders the root layout of the application.
 // It takes 'children' as a prop and wraps them with the global providers.
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang='en'>
       <head>

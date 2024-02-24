@@ -1,6 +1,5 @@
 import Maintenance from '@/components/maintenance';
 import { stacksMaintenance } from '@/lib/constants/maintenance-message';
-import React from 'react';
 
 function page() {
   return (

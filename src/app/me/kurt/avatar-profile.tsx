@@ -1,7 +1,6 @@
 'use client';
 
 import { Image, Text, Tooltip } from '@mantine/core';
-import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 
 function AvatarProfile() {
