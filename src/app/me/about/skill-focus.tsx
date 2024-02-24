@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 import { Image, Text } from '@mantine/core';
-=======
-import { Text } from '@mantine/core';
->>>>>>> 842a2a31d3e2d52e348d5560c1f0920b8af7e124
 import {
   IconArrowWaveRightDown,
   IconCornerDownRight,
@@ -45,7 +41,6 @@ function SkillFocus() {
         development team.
       </Text>
       <Text className='text-white font-semibold'>Problem-Solving</Text>
-<<<<<<< HEAD
       <div className='flex'>
         <Text className='text-zinc-500 indent-6'>
           <IconCornerDownRight size={20} className='inline-block mr-2' />{' '}
@@ -59,12 +54,6 @@ function SkillFocus() {
           src='/cube.png'
         />
       </div>
-=======
-      <Text className='text-zinc-500 indent-6'>
-        <IconCornerDownRight size={20} className='inline-block mr-2' />{' '}
-        Passionate problem solver with a unique twist — (Rubik&apos;s Cube).
-      </Text>
->>>>>>> 842a2a31d3e2d52e348d5560c1f0920b8af7e124
       <Text className='text-white font-semibold'>Full-Stack Development</Text>
       <Text className='text-zinc-500 indent-6'>
         <IconCornerDownRight size={20} className='inline-block mr-2' />{' '}

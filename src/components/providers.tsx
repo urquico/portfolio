@@ -2,9 +2,9 @@
 
 import Loading from '@/app/me/loading';
 import { MantineProvider } from '@mantine/core';
-import React, { useEffect, useState } from 'react';
+import { ReactNode, useEffect, useState } from 'react';
 
-export default function Providers({ children }: { children: React.ReactNode }) {
+export default function Providers({ children }: { children: ReactNode }) {
   const [isDomLoaded, setIsDomLoaded] = useState(false);
 
   // for UI hydration bug

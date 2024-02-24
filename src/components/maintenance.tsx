@@ -1,7 +1,6 @@
 import { Button, Paper, Text } from '@mantine/core';
 import { IconArrowBackUp } from '@tabler/icons-react';
 import Link from 'next/link';
-import React from 'react';
 
 interface MaintenanceProps {
   emoji: string;
