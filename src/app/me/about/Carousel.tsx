@@ -1,12 +1,12 @@
 
 
-// Testimonial type represents a testimonial with a name, role, quote, and image.
+// Testimonial type represents a testimonial with a name, role, quote, image, and date.
 type Testimonial = {
   name: string;
   role: string;
   quote: string;
   image: string;
-  date: string;
+  date: string; // Represents the date of the testimonial
 };
 
 // Carousel is a React component that renders a carousel of testimonials. It doesn't take any props.
