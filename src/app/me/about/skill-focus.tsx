@@ -1,4 +1,4 @@
-import { Text } from '@mantine/core';
+import { Image, Text } from '@mantine/core';
 import {
   IconArrowWaveRightDown,
   IconCornerDownRight,
@@ -41,10 +41,19 @@ function SkillFocus() {
         development team.
       </Text>
       <Text className='text-white font-semibold'>Problem-Solving</Text>
-      <Text className='text-zinc-500 indent-6'>
-        <IconCornerDownRight size={20} className='inline-block mr-2' />{' '}
-        Passionate problem solver with a unique twist — (Rubik&apos;s Cube).
-      </Text>
+      <div className='flex'>
+        <Text className='text-zinc-500 indent-6'>
+          <IconCornerDownRight size={20} className='inline-block mr-2' />{' '}
+          Passionate problem solver with a unique twist —
+        </Text>
+        <Image
+          alt='me'
+          className='rounded-full border-8 border-solid border-zinc-950'
+          h={40}
+          w={40}
+          src='/cube.png'
+        />
+      </div>
       <Text className='text-white font-semibold'>Full-Stack Development</Text>
       <Text className='text-zinc-500 indent-6'>
         <IconCornerDownRight size={20} className='inline-block mr-2' />{' '}
