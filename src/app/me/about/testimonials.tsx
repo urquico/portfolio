@@ -1,7 +1,6 @@
 import Carousel from '@/app/me/about/Carousel';
 import { Text } from '@mantine/core';
 import { IconArrowWaveRightDown } from '@tabler/icons-react';
-import React from 'react';
 
 function Testimonials() {
   return (
