@@ -1,22 +1,12 @@
-'use client';
 
-import { Blockquote, Image, Paper, Text } from '@mantine/core';
-import 'swiper/css';
-import 'swiper/css/effect-cards';
-import { EffectCards } from 'swiper/modules';
-import { Swiper, SwiperSlide } from 'swiper/react';
 
-/**
- * This file defines the Carousel component used in the 'About' page to display testimonials.
- */
-
-// Testimonial type represents a testimonial with a name, role, quote, and image.
+// Testimonial type represents a testimonial with a name, role, quote, image, and date.
 type Testimonial = {
   name: string;
   role: string;
   quote: string;
   image: string;
-  date: string;
+  date: string; // Represents the date of the testimonial
 };
 
 // Carousel is a React component that renders a carousel of testimonials. It doesn't take any props.
