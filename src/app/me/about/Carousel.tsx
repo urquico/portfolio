@@ -3,6 +3,10 @@
 import { Blockquote, Image, Paper, Text } from '@mantine/core';
 import 'swiper/css';
 import 'swiper/css/effect-cards';
+
+/**
+ * This file defines the Carousel component used in the 'About' page to display testimonials.
+ */
 import { EffectCards } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
