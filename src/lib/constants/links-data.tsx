@@ -3,6 +3,7 @@ import {
   IconBrandLinkedin,
   IconFileCv,
 } from '@tabler/icons-react';
+import { ReactNode } from 'react';
 
 type LinksType = {
   label: string;
@@ -12,7 +13,7 @@ type LinksType = {
 type SocialsType = {
   label: string;
   path: string;
-  icon: unknown;
+  icon: ReactNode;
 };
 
 export const links: LinksType[] = [
