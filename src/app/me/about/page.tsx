@@ -1,6 +1,7 @@
 import TabsDefault from '@/components/tabs-default';
 
 import AboutSection from './about-section';
+import ExperienceTimeline from './experience-timeline';
 import NameDisplay from './name-display';
 import SkillFocus from './skill-focus';
 
@@ -24,7 +25,11 @@ function page() {
       value: 'experience',
       label: 'Experience',
       icon: '🏢',
-      content: <div>Experience</div>,
+      content: (
+        <>
+          <ExperienceTimeline />
+        </>
+      ),
     },
   ];
 
