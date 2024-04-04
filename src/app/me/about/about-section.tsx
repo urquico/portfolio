@@ -22,7 +22,7 @@ function AboutSection() {
   });
 
   return (
-    <div className='w-[36rem] px-12 py-4 max-md:w-full flex flex-col gap-4 mt-4'>
+    <div className='w-[40rem] px-12 py-4 max-md:w-full flex flex-col gap-4 mt-4'>
       <Text className='text-3xl text-white font-bold'>
         👋 About Me
         <IconArrowWaveRightDown size={20} className='inline-block ml-2' />

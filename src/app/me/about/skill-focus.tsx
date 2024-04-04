@@ -3,11 +3,10 @@ import {
   IconArrowWaveRightDown,
   IconCornerDownRight,
 } from '@tabler/icons-react';
-import React from 'react';
 
 function SkillFocus() {
   return (
-    <div className='w-[36rem] px-12 py-4 max-md:w-full flex flex-col gap-4 mt-4'>
+    <div className='w-[40rem] px-12 py-4 max-md:w-full flex flex-col gap-4 mt-4'>
       <Text className='text-3xl text-white font-bold'>
         🚀 Skills & Focus
         <IconArrowWaveRightDown size={20} className='inline-block ml-2' />
@@ -54,11 +53,9 @@ function SkillFocus() {
           src='/cube.png'
         />
       </div>
-      <Text className='text-white font-semibold'>Full-Stack Development</Text>
       <Text className='text-zinc-500 indent-6'>
-        <IconCornerDownRight size={20} className='inline-block mr-2' />{' '}
-        Embarking on the Full-Stack journey, I integrate frontend and backend
-        technologies to create cohesive and efficient applications.
+        <IconCornerDownRight size={20} className='inline-block mr-2' /> Creative
+        thinker who enjoys tackling complex challenges.
       </Text>
 
       {/* Links */}
@@ -75,14 +72,22 @@ function SkillFocus() {
             className='text-zinc-500 hover:text-white'
           >
             LinkedIn
-          </a>{' '}
-          and{' '}
+          </a>
+          {', '}
           <a
             href='https://github.com/urquico'
             target='_blank'
             className='text-zinc-500 hover:text-white'
           >
             GitHub
+          </a>
+          {', or '}
+          <a
+            href='mailto:urquico.dev@gmail.com'
+            target='_blank'
+            className='text-zinc-500 hover:text-white'
+          >
+            Email
           </a>
           .
         </Text>

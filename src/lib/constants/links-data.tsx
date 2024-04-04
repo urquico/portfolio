@@ -3,8 +3,20 @@ import {
   IconBrandLinkedin,
   IconFileCv,
 } from '@tabler/icons-react';
+import { ReactNode } from 'react';
 
-export const links = [
+type LinksType = {
+  label: string;
+  path: string;
+};
+
+type SocialsType = {
+  label: string;
+  path: string;
+  icon: ReactNode;
+};
+
+export const links: LinksType[] = [
   {
     label: 'Kurt',
     path: '/me/kurt',
@@ -21,13 +33,9 @@ export const links = [
     label: 'Stacks',
     path: '/me/stacks',
   },
-  {
-    label: 'Contact',
-    path: '/me/contacts',
-  },
 ];
 
-export const socials = [
+export const socials: SocialsType[] = [
   {
     label: 'GitHub',
     path: 'https://github.com/urquico',
@@ -42,5 +50,10 @@ export const socials = [
     label: 'Read.CV',
     path: 'https://read.cv/urquico',
     icon: <IconFileCv size={14} />,
+  },
+  {
+    label: 'Email',
+    path: 'mailto:urquico.dev@gmail.com',
+    icon: '@',
   },
 ];

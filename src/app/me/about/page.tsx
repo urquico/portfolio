@@ -1,24 +1,7 @@
-import AboutSection from './about-section';
-import NameDisplay from './name-display';
-import SkillFocus from './skill-focus';
-import Testimonials from './testimonials';
+import { redirect } from 'next/navigation';
 
 function page() {
-  return (
-    <main className='flex flex-col items-center'>
-      {/* Name */}
-      <NameDisplay />
-
-      {/* About Me */}
-      <AboutSection />
-
-      {/* Skills & Focus */}
-      <SkillFocus />
-
-      {/* Testimonials */}
-      <Testimonials />
-    </main>
-  );
+  return redirect('/me/about/general-info');
 }
 
 export default page;
