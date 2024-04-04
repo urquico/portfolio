@@ -1,7 +1,6 @@
 import AboutSection from './about-section';
 import NameDisplay from './name-display';
 import SkillFocus from './skill-focus';
-import Testimonials from './testimonials';
 
 function page() {
   return (
@@ -14,9 +13,6 @@ function page() {
 
       {/* Skills & Focus */}
       <SkillFocus />
-
-      {/* Testimonials */}
-      <Testimonials />
     </main>
   );
 }
