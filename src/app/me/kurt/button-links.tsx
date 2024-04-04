@@ -2,7 +2,6 @@ import { socials } from '@/lib/constants/links-data';
 import { cn } from '@/lib/utils';
 import { Button } from '@mantine/core';
 import Link from 'next/link';
-import React from 'react';
 
 function ButtonLinks() {
   return (

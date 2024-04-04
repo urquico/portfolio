@@ -1,4 +1,9 @@
-export const stackData = [
+type StackData = {
+  label: string;
+  src: string;
+};
+
+export const stackData: StackData[] = [
   {
     label: 'React',
     src: 'https://cdn.svgporn.com/logos/react.svg',

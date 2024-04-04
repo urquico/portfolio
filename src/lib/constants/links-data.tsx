@@ -4,7 +4,18 @@ import {
   IconFileCv,
 } from '@tabler/icons-react';
 
-export const links = [
+type LinksType = {
+  label: string;
+  path: string;
+};
+
+type SocialsType = {
+  label: string;
+  path: string;
+  icon: unknown;
+};
+
+export const links: LinksType[] = [
   {
     label: 'Kurt',
     path: '/me/kurt',
@@ -23,7 +34,7 @@ export const links = [
   },
 ];
 
-export const socials = [
+export const socials: SocialsType[] = [
   {
     label: 'GitHub',
     path: 'https://github.com/urquico',
