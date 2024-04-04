@@ -2,34 +2,58 @@
 
 import { cn } from '@/lib/utils';
 import { Tabs, Text } from '@mantine/core';
-import React from 'react';
+import { usePathname, useRouter } from 'next/navigation';
+import React, { useEffect, useState } from 'react';
 
 interface TabsProps {
   tabList: {
     value: string;
     label: string;
     icon: React.ReactNode;
-    content: React.ReactNode;
   }[];
   verticalAlign?: boolean;
   className?: string;
+  parentPath: string;
+  children: React.ReactNode;
 }
 
-function TabsDefault({ tabList, verticalAlign, className }: TabsProps) {
-  if (tabList === undefined || tabList === null) {
-    throw new Error('TabsDefault requires a tabList prop');
+function TabsDefault({
+  tabList,
+  verticalAlign,
+  className,
+  parentPath,
+  children,
+}: TabsProps) {
+  const router = useRouter();
+  const [activeTab, setActiveTab] = useState('');
+  const pathname = usePathname();
+
+  if (parentPath === undefined || parentPath === null) {
+    throw new Error('TabsCustom requires a parentPath prop');
   }
+
+  if (tabList === undefined || tabList === null) {
+    throw new Error('TabsCustom requires a tabList prop');
+  }
+
+  // ? set active tab based on the current pathname
+  useEffect(() => {
+    tabList.map((tab) => {
+      if (pathname.includes(tab.value)) setActiveTab(tab.value);
+    });
+  }, [pathname, tabList]);
 
   return (
     <Tabs
+      value={activeTab}
+      onChange={(value) => router.push(`${parentPath}/${value}`)}
       variant='outline'
       orientation={verticalAlign ? 'vertical' : 'horizontal'}
       activateTabWithKeyboard={true}
       keepMounted={false}
-      defaultValue={tabList[0].value}
-      className={cn(className, 'w-[40rem]')}
+      className={cn(className, 'w-[40rem] max-md:w-full')}
     >
-      <Tabs.List justify='flex-center' className='mx-8'>
+      <Tabs.List className='mx-8'>
         {tabList.map((tab) => (
           <Tabs.Tab
             value={tab.value}
@@ -42,11 +66,7 @@ function TabsDefault({ tabList, verticalAlign, className }: TabsProps) {
         ))}
       </Tabs.List>
 
-      {tabList.map((tab) => (
-        <Tabs.Panel value={tab.value} key={tab.value}>
-          {tab.content}
-        </Tabs.Panel>
-      ))}
+      {children}
     </Tabs>
   );
 }

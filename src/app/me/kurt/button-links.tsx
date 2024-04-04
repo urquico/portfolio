@@ -2,11 +2,10 @@ import { socials } from '@/lib/constants/links-data';
 import { cn } from '@/lib/utils';
 import { Button } from '@mantine/core';
 import Link from 'next/link';
-import React from 'react';
 
 function ButtonLinks() {
   return (
-    <div className='grid grid-cols-3 gap-4 justify-items-center mt-10 max-md:flex max-md:flex-col'>
+    <div className='grid grid-cols-4 gap-2 justify-items-center mt-10 max-md:flex max-md:flex-col'>
       {socials.map((social) => {
         return (
           <Button
@@ -17,7 +16,7 @@ function ButtonLinks() {
             target='_blank'
             variant='default'
             className={cn(
-              'bg-zinc-950 text-white hover:bg-white hover:text-zinc-950 transition ease-in-out duration-300 max-md:w-72',
+              'bg-zinc-950 text-white rounded-full hover:bg-white hover:text-zinc-950 transition ease-in-out duration-300 max-md:w-72',
               {},
             )}
           >

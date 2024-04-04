@@ -3,7 +3,6 @@ import {
   IconArrowWaveRightDown,
   IconCornerDownRight,
 } from '@tabler/icons-react';
-import React from 'react';
 
 function SkillFocus() {
   return (
