@@ -21,10 +21,6 @@ export const links = [
     label: 'Stacks',
     path: '/me/stacks',
   },
-  {
-    label: 'Contact',
-    path: '/me/contacts',
-  },
 ];
 
 export const socials = [
@@ -42,5 +38,10 @@ export const socials = [
     label: 'Read.CV',
     path: 'https://read.cv/urquico',
     icon: <IconFileCv size={14} />,
+  },
+  {
+    label: 'Email',
+    path: 'mailto:urquico.dev@gmail.com',
+    icon: '@',
   },
 ];
