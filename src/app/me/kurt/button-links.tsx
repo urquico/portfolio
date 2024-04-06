@@ -1,26 +1,17 @@
+import CustomButton from '@/components/custom-button';
 import { socials } from '@/lib/constants/links-data';
-import { cn } from '@/lib/utils';
-import { Button } from '@mantine/core';
-import Link from 'next/link';
 
 function ButtonLinks() {
   return (
     <div className='grid grid-cols-2 gap-2 justify-items-start mt-10 max-md:flex max-md:flex-col'>
       {socials.map((social) => {
         return (
-          <Button
+          <CustomButton
             key={social.label}
-            leftSection={social.icon}
-            component={Link}
-            href={social.path}
-            target='_blank'
-            variant='default'
-            className={cn(
-              'bg-zinc-950 text-white rounded-full hover:bg-white hover:text-zinc-950 transition ease-in-out duration-300 max-md:w-72',
-            )}
-          >
-            {social.label}
-          </Button>
+            icon={social.icon}
+            path={social.path}
+            label={social.label}
+          />
         );
       })}
     </div>

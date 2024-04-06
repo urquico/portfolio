@@ -2,31 +2,35 @@ import TabsDefault from '@/components/tabs-default';
 import type { Metadata } from 'next';
 import { ReactNode } from 'react';
 
-import NameDisplay from './name-display';
+import NameDisplay from '../about/name-display';
 
 export const metadata: Metadata = {
   title: 'About | Kurt',
-  description: 'Portfolio',
+  description: 'Projects',
 };
 
 export default function AboutLayout({ children }: { children: ReactNode }) {
   const tabList = [
     {
-      value: 'general-info',
-      label: 'General Info',
-      icon: '👨‍💻',
+      value: 'main',
+      label: 'Main Projects',
+      icon: '🚀',
     },
     {
-      value: 'work-experience',
-      label: 'Experience',
-      icon: '🏢',
+      value: 'side',
+      label: 'Side Projects',
+      icon: '🛠️',
     },
   ];
 
   return (
     <main className='flex flex-col items-center'>
-      <NameDisplay text={['Kurt', 'Jacob', 'Urquico']} />
-      <TabsDefault tabList={tabList} parentPath='/me/about/' className='mt-8'>
+      <NameDisplay text={['Works,', 'Projects,', '& Portfolio']} />
+      <TabsDefault
+        tabList={tabList}
+        parentPath='/me/projects/'
+        className='mt-8'
+      >
         {children}
       </TabsDefault>
     </main>

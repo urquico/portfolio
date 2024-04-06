@@ -1,4 +1,4 @@
-type ExperienceData = {
+export type ExperienceData = {
   title: string;
   date: string;
   location: string;
