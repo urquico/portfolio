@@ -84,11 +84,11 @@ function CustomTimeline({ experienceData, projectData }: TimelineType) {
       color='dark'
       className='w-[40rem] px-12 py-4 max-md:w-full flex flex-col gap-4 mt-4'
     >
-      {projectData?.map((experience, index) => (
+      {projectData?.map((project, index) => (
         <Timeline.Item
           key={index}
           bullet={
-            experience.isInProgress ? (
+            project.isInProgress ? (
               <IconActivityHeartbeat size={12} />
             ) : (
               <IconCheck size={12} />
@@ -96,34 +96,34 @@ function CustomTimeline({ experienceData, projectData }: TimelineType) {
           }
           title={
             <>
-              {experience.previewLink ? (
+              {project.previewLink ? (
                 <Anchor
-                  href={experience.previewLink}
+                  href={project.previewLink}
                   target='_blank'
                   className='text-white text-lg font-bold hover:underline cursor-pointer'
                 >
-                  {experience.title} <IconLink size='1rem' />
+                  {project.title} <IconLink size='1rem' />
                 </Anchor>
               ) : (
                 <Text className='text-white text-lg font-bold'>
-                  {experience.title}
+                  {project.title}
                 </Text>
               )}
             </>
           }
         >
           <Text className='text-white' fz='xs' fw='bold'>
-            {experience.role}
+            {project.role}
           </Text>
 
           <Text c='dimmed' size='sm' fw='bold'>
-            {experience.date}
+            {project.date}
           </Text>
           <Text size='xs' mt={4} className='text-zinc-200 mb-4' c='dimmed'>
-            {experience.client}
+            {project.client}
           </Text>
           <div className='flex flex-col gap-2'>
-            {experience.description.map((desc, i) => (
+            {project.description.map((desc, i) => (
               <Text key={i} c='dimmed' size='sm' className='text-justify'>
                 {desc}
               </Text>
@@ -131,7 +131,7 @@ function CustomTimeline({ experienceData, projectData }: TimelineType) {
 
             <Tooltip.Group openDelay={300} closeDelay={100}>
               <Avatar.Group spacing='xs'>
-                {experience.stacks.map((stack, i) => (
+                {project.stacks.map((stack, i) => (
                   <Tooltip label={stack.label} withArrow key={i}>
                     <Avatar src={stack.src} radius='xl' size='md'>
                       <IconError404 size='1.5rem' />
@@ -141,17 +141,17 @@ function CustomTimeline({ experienceData, projectData }: TimelineType) {
               </Avatar.Group>
             </Tooltip.Group>
 
-            {experience.associatedExperience.length > 0 && (
+            {project.associatedExperience.length > 0 && (
               <Text className='text-white' fz='xs' fw='bold' c='dimmed'>
-                Associated with {experience.associatedExperience}
+                Associated with {project.associatedExperience}
               </Text>
             )}
           </div>
 
-          {experience.githubLink && (
+          {project.githubLink && (
             <CustomButton
               icon={<IconBrandGithub size={14} />}
-              path={experience.githubLink}
+              path={project.githubLink}
               label='View Repository'
               className='mt-4'
               size='xs'
