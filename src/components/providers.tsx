@@ -32,8 +32,12 @@ export default function Providers({ children }: { children: ReactNode }) {
                 <ActionIcon
                   style={transitionStyles}
                   onClick={() => scrollTo({ y: 0 })}
+                  color='white'
                 >
-                  <IconArrowUp style={{ width: rem(16), height: rem(16) }} />
+                  <IconArrowUp
+                    style={{ width: rem(16), height: rem(16) }}
+                    className='text-zinc-900'
+                  />
                 </ActionIcon>
               )}
             </Transition>
