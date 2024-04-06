@@ -2,15 +2,14 @@
 
 import { ExperienceData } from '@/lib/constants/experience-data';
 import { ProjectData } from '@/lib/constants/project-data';
-import { cn } from '@/lib/utils';
-import { Avatar, Badge, Button, Text, Timeline, Tooltip } from '@mantine/core';
+import { Anchor, Avatar, Badge, Text, Timeline, Tooltip } from '@mantine/core';
 import {
   IconActivityHeartbeat,
   IconBrandGithub,
   IconCheck,
   IconError404,
+  IconLink,
 } from '@tabler/icons-react';
-import Link from 'next/link';
 
 import CustomButton from './custom-button';
 
@@ -96,9 +95,21 @@ function CustomTimeline({ experienceData, projectData }: TimelineType) {
             )
           }
           title={
-            <Text className='text-white text-lg font-bold'>
-              {experience.title}
-            </Text>
+            <>
+              {experience.previewLink ? (
+                <Anchor
+                  href={experience.previewLink}
+                  target='_blank'
+                  className='text-white text-lg font-bold hover:underline cursor-pointer'
+                >
+                  {experience.title} <IconLink size='1rem' />
+                </Anchor>
+              ) : (
+                <Text className='text-white text-lg font-bold'>
+                  {experience.title}
+                </Text>
+              )}
+            </>
           }
         >
           <Text className='text-white' fz='xs' fw='bold'>

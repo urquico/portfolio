@@ -12,7 +12,7 @@ export const experienceData: ExperienceData[] = [
     title: 'Freelance Full-Stack Web Developer',
     date: '2022 - Now',
     location: 'Manila',
-    description: ['Developed and deployed systems for clients.'],
+    description: ['Developing and deploying systems for clients.'],
     active: true,
     projects: ['OMMS-Next'],
   },
