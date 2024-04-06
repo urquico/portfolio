@@ -1,4 +1,5 @@
 import {
+  IconAt,
   IconBrandGithub,
   IconBrandLinkedin,
   IconFileCv,
@@ -54,6 +55,6 @@ export const socials: SocialsType[] = [
   {
     label: 'Email',
     path: 'mailto:urquico.dev@gmail.com',
-    icon: '@',
+    icon: <IconAt size={14} />,
   },
 ];

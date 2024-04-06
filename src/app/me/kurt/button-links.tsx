@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 function ButtonLinks() {
   return (
-    <div className='grid grid-cols-4 gap-2 justify-items-center mt-10 max-md:flex max-md:flex-col'>
+    <div className='grid grid-cols-2 gap-2 justify-items-start mt-10 max-md:flex max-md:flex-col'>
       {socials.map((social) => {
         return (
           <Button
@@ -17,7 +17,6 @@ function ButtonLinks() {
             variant='default'
             className={cn(
               'bg-zinc-950 text-white rounded-full hover:bg-white hover:text-zinc-950 transition ease-in-out duration-300 max-md:w-72',
-              {},
             )}
           >
             {social.label}
