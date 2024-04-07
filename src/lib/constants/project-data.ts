@@ -161,75 +161,75 @@ export const projectData: ProjectData[] = [
   },
 ];
 export const sideProjectData: ProjectData[] = [
-  {
-    title: 'Unreels & Longs',
-    date: 'Ongoing',
-    client: 'N/A',
-    description: [
-      'A Web extension that blocks Youtube Shorts and Facebook Reels',
-    ],
-    isInProgress: true,
-    associatedExperience: 'Personal Project',
-    role: '',
-    stacks: [
-      {
-        label: 'Chrome Web Extension',
-        src: 'https://cdn.svgporn.com/logos/chrome-web-store.svg',
-      },
-      {
-        label: 'WXT',
-        src: 'https://wxt.dev/hero-logo.svg',
-      },
-      {
-        label: 'React',
-        src: 'https://cdn.svgporn.com/logos/react.svg',
-      },
-      {
-        label: 'Mantine UI',
-        src: 'https://cdn.svgporn.com/logos/mantine-icon.svg',
-      },
-      {
-        label: 'Typescript',
-        src: 'https://cdn.svgporn.com/logos/typescript-icon.svg',
-      },
-    ],
-    githubLink: 'https://github.com/urquico/unreels-longs',
-  },
-  {
-    title: 'Elgemo',
-    date: 'Ongoing',
-    client: 'N/A',
-    description: ['An Omegle Alternative'],
-    isInProgress: true,
-    associatedExperience: 'Circle Dev',
-    role: 'Lead Front-End Developer',
-    stacks: [
-      {
-        label: 'Next JS',
-        src: 'https://cdn.svgporn.com/logos/nextjs-icon.svg',
-      },
-      {
-        label: 'React',
-        src: 'https://cdn.svgporn.com/logos/react.svg',
-      },
-      {
-        label: 'Mantine UI',
-        src: 'https://cdn.svgporn.com/logos/mantine-icon.svg',
-      },
-      {
-        label: 'Tailwind CSS',
-        src: 'https://cdn.svgporn.com/logos/tailwindcss-icon.svg',
-      },
-      {
-        label: 'shadcn/ui',
-        src: 'https://avatars.githubusercontent.com/u/139895814?s=200&v=4',
-      },
-      {
-        label: 'Web Socket',
-        src: 'https://cdn.svgporn.com/logos/websocket.svg',
-      },
-    ],
-  },
+  // {
+  //   title: 'Unreels & Longs',
+  //   date: 'Ongoing',
+  //   client: 'N/A',
+  //   description: [
+  //     'A Web extension that blocks Youtube Shorts and Facebook Reels',
+  //   ],
+  //   isInProgress: true,
+  //   associatedExperience: 'Personal Project',
+  //   role: '',
+  //   stacks: [
+  //     {
+  //       label: 'Chrome Web Extension',
+  //       src: 'https://cdn.svgporn.com/logos/chrome-web-store.svg',
+  //     },
+  //     {
+  //       label: 'WXT',
+  //       src: 'https://wxt.dev/hero-logo.svg',
+  //     },
+  //     {
+  //       label: 'React',
+  //       src: 'https://cdn.svgporn.com/logos/react.svg',
+  //     },
+  //     {
+  //       label: 'Mantine UI',
+  //       src: 'https://cdn.svgporn.com/logos/mantine-icon.svg',
+  //     },
+  //     {
+  //       label: 'Typescript',
+  //       src: 'https://cdn.svgporn.com/logos/typescript-icon.svg',
+  //     },
+  //   ],
+  //   githubLink: 'https://github.com/urquico/unreels-longs',
+  // },
+  // {
+  //   title: 'Elgemo',
+  //   date: 'Ongoing',
+  //   client: 'N/A',
+  //   description: ['An Omegle Alternative'],
+  //   isInProgress: true,
+  //   associatedExperience: 'Circle Dev',
+  //   role: 'Lead Front-End Developer',
+  //   stacks: [
+  //     {
+  //       label: 'Next JS',
+  //       src: 'https://cdn.svgporn.com/logos/nextjs-icon.svg',
+  //     },
+  //     {
+  //       label: 'React',
+  //       src: 'https://cdn.svgporn.com/logos/react.svg',
+  //     },
+  //     {
+  //       label: 'Mantine UI',
+  //       src: 'https://cdn.svgporn.com/logos/mantine-icon.svg',
+  //     },
+  //     {
+  //       label: 'Tailwind CSS',
+  //       src: 'https://cdn.svgporn.com/logos/tailwindcss-icon.svg',
+  //     },
+  //     {
+  //       label: 'shadcn/ui',
+  //       src: 'https://avatars.githubusercontent.com/u/139895814?s=200&v=4',
+  //     },
+  //     {
+  //       label: 'Web Socket',
+  //       src: 'https://cdn.svgporn.com/logos/websocket.svg',
+  //     },
+  //   ],
+  // },
   {
     title:
       'PLM Computerized Registration System (CRS) at Pamantasan ng Lungsod ng Maynila',
