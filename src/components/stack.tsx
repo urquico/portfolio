@@ -1,9 +1,5 @@
+import { StackProps } from '@/lib/interfaces';
 import { Image } from '@mantine/core';
-
-interface StackProps {
-  src: string;
-  label: string;
-}
 
 function Stack({ src, label }: StackProps) {
   return (

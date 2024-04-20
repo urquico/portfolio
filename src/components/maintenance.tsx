@@ -1,13 +1,7 @@
+import { MaintenanceProps } from '@/lib/interfaces';
 import { Button, Paper, Text } from '@mantine/core';
 import { IconArrowBackUp } from '@tabler/icons-react';
 import Link from 'next/link';
-
-interface MaintenanceProps {
-  emoji: string;
-  title: string;
-  subtitle: string;
-  description: string;
-}
 
 function Maintenance({
   emoji,

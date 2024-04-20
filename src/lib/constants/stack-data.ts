@@ -1,7 +1,4 @@
-type StackData = {
-  label: string;
-  src: string;
-};
+import { StackData } from '../types';
 
 export const stackData: StackData[] = [
   {

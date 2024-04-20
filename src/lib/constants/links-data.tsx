@@ -4,18 +4,8 @@ import {
   IconBrandLinkedin,
   IconFileCv,
 } from '@tabler/icons-react';
-import { ReactNode } from 'react';
 
-type LinksType = {
-  label: string;
-  path: string;
-};
-
-type SocialsType = {
-  label: string;
-  path: string;
-  icon: ReactNode;
-};
+import { LinksType, SocialsType } from '../types';
 
 export const links: LinksType[] = [
   {
