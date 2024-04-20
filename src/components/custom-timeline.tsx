@@ -1,7 +1,6 @@
 'use client';
 
-import { ExperienceData } from '@/lib/constants/experience-data';
-import { ProjectData } from '@/lib/constants/project-data';
+import { TimelineType } from '@/lib/interfaces';
 import { Anchor, Avatar, Badge, Text, Timeline, Tooltip } from '@mantine/core';
 import {
   IconActivityHeartbeat,
@@ -12,11 +11,6 @@ import {
 } from '@tabler/icons-react';
 
 import CustomButton from './custom-button';
-
-interface TimelineType {
-  experienceData?: ExperienceData[];
-  projectData?: ProjectData[];
-}
 
 function CustomTimeline({ experienceData, projectData }: TimelineType) {
   if (experienceData) {

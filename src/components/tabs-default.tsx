@@ -1,21 +1,10 @@
 'use client';
 
+import { TabsProps } from '@/lib/interfaces';
 import { cn } from '@/lib/utils';
 import { Tabs, Text } from '@mantine/core';
 import { usePathname, useRouter } from 'next/navigation';
 import React, { useEffect, useState } from 'react';
-
-interface TabsProps {
-  tabList: {
-    value: string;
-    label: string;
-    icon: React.ReactNode;
-  }[];
-  verticalAlign?: boolean;
-  className?: string;
-  parentPath: string;
-  children: React.ReactNode;
-}
 
 function TabsDefault({
   tabList,
