@@ -1,8 +1,5 @@
+import { NameDisplayProps } from '@/lib/interfaces';
 import { Text } from '@mantine/core';
-
-interface NameDisplayProps {
-  text: string[];
-}
 
 function NameDisplay({ text }: NameDisplayProps) {
   return (

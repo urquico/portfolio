@@ -1,15 +1,8 @@
+import { CustomButtonProps } from '@/lib/interfaces';
 import { cn } from '@/lib/utils';
 import { Button } from '@mantine/core';
 import Link from 'next/link';
 import React from 'react';
-
-interface CustomButtonProps {
-  icon: React.ReactNode;
-  path: string;
-  label: string;
-  className?: string;
-  size?: string;
-}
 
 function CustomButton({
   icon,
