@@ -54,4 +54,5 @@ export type ProjectData = {
   }[];
   githubLink?: string;
   previewLink?: string;
+  reactFlowData?: any;
 };

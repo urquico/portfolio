@@ -1,7 +1,7 @@
 'use client';
 
 import { TimelineType } from '@/lib/interfaces';
-import { Anchor, Avatar, Badge, Text, Timeline, Tooltip } from '@mantine/core';
+import { Anchor, Avatar, Badge, Modal, Text, Timeline, Tooltip } from '@mantine/core';
 import {
   IconActivityHeartbeat,
   IconBrandGithub,
@@ -9,10 +9,24 @@ import {
   IconError404,
   IconLink,
 } from '@tabler/icons-react';
+import ReactFlow from 'reactflow';
+import 'reactflow/dist/style.css';
 
 import CustomButton from './custom-button';
 
 function CustomTimeline({ experienceData, projectData }: TimelineType) {
+  const [opened, setOpened] = useState(false);
+  const [selectedProject, setSelectedProject] = useState(null);
+
+  const openDetails = (project) => {
+    setSelectedProject(project);
+    setOpened(true);
+  };
+
+  const closeDetails = () => {
+    setSelectedProject(null);
+    setOpened(false);
+  };
   if (experienceData) {
     return (
       <Timeline
@@ -71,6 +85,7 @@ function CustomTimeline({ experienceData, projectData }: TimelineType) {
   }
 
   return (
+    <>
     <Timeline
       active={4}
       bulletSize={24}
@@ -151,9 +166,19 @@ function CustomTimeline({ experienceData, projectData }: TimelineType) {
               size='xs'
             />
           )}
+          <CustomButton
+            label="View Details"
+            className="mt-4"
+            size="xs"
+            onClick={() => openDetails(project)}
+          />
         </Timeline.Item>
       ))}
     </Timeline>
+    <Modal opened={opened} onClose={closeDetails} size="xl">
+      <ReactFlow elements={selectedProject?.reactFlowData || []} />
+    </Modal>
+    </>
   );
 }
 
