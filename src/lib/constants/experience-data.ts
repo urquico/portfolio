@@ -24,6 +24,14 @@ export const experienceData: ExperienceData[] = [
     projects: ['MAPS', 'ORASAN', 'HealthVault'],
   },
   {
+    title: 'Freelance Multimedia Designer',
+    date: '2020 - 2021',
+    location: 'Manila',
+    description: ['Designs and Develops multimedia content for clients.'],
+    active: false,
+    projects: [],
+  },
+  {
     title: 'IT Support Intern at DTI - CITEM Philippines',
     date: '2019 - 2019',
     location: 'Pasay, Metro Manila',

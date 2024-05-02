@@ -1,43 +1,41 @@
 import { ProjectData } from '../types';
+import {
+  AUTH_JS,
+  ELECTRON,
+  EMAIL_JS,
+  EXPRESS,
+  FIREBASE,
+  LARAVEL,
+  LEAFLET_API,
+  MANTINE_UI,
+  MARIA_DB,
+  MS_AZURE,
+  MYSQL,
+  NEXT_JS,
+  NODE_JS,
+  PRISMA_ORM,
+  REACT,
+  SHADCN,
+  TAILWIND,
+  TYPESCRIPT,
+  VITE_JS,
+} from './stack-data';
 
 export const projectData: ProjectData[] = [
   {
     title: 'OMMS-Next',
-    date: 'Ongoing',
+    date: '2024',
     client: 'One Man Merchandising',
     description: ['A Web-Based Application for One Man Merchandising'],
-    isInProgress: true,
+    isInProgress: false,
     associatedExperience: 'Freelance',
     role: 'Full-Stack Developer',
-    stacks: [
-      {
-        label: 'Next JS',
-        src: 'https://cdn.svgporn.com/logos/nextjs-icon.svg',
-      },
-      {
-        label: 'React',
-        src: 'https://cdn.svgporn.com/logos/react.svg',
-      },
-      {
-        label: 'Mantine UI',
-        src: 'https://cdn.svgporn.com/logos/mantine-icon.svg',
-      },
-      {
-        label: 'Tailwind CSS',
-        src: 'https://cdn.svgporn.com/logos/tailwindcss-icon.svg',
-      },
-      {
-        label: 'Prisma ORM',
-        src: 'https://cdn.svgporn.com/logos/prisma.svg',
-      },
-      {
-        label: 'Auth JS',
-        src: 'https://authjs.dev/img/logo/logo-sm.webp',
-      },
-      {
-        label: 'MySQL',
-        src: 'https://cdn.svgporn.com/logos/mysql-icon.svg',
-      },
+    stacks: [NEXT_JS, REACT, MANTINE_UI, TAILWIND, PRISMA_ORM, AUTH_JS, MYSQL],
+    images: [
+      '/projects/omms-1.png',
+      '/projects/omms-2.png',
+      '/projects/omms-3.png',
+      '/projects/omms-4.png',
     ],
   },
   {
@@ -48,24 +46,9 @@ export const projectData: ProjectData[] = [
     isInProgress: false,
     associatedExperience: 'Internship at GSSLI',
     role: 'Lead Programmer',
-    stacks: [
-      {
-        label: 'React',
-        src: 'https://cdn.svgporn.com/logos/react.svg',
-      },
-      {
-        label: 'Vite JS',
-        src: 'https://cdn.svgporn.com/logos/vitejs.svg',
-      },
-      {
-        label: 'Leaflet API',
-        src: 'https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fmeta-q.cdn.bubble.io%2Ff1628613062972x583148037293412100%2F8y-GChEY.jpg?w=&h=&auto=compress&dpr=1&fit=max',
-      },
-      {
-        label: 'Mantine UI',
-        src: 'https://cdn.svgporn.com/logos/mantine-icon.svg',
-      },
-    ],
+    githubLink: 'https://github.com/urquico/mapa',
+    stacks: [REACT, VITE_JS, LEAFLET_API, MANTINE_UI],
+    images: ['/projects/maps.png'],
   },
   {
     title: 'InternConnect: ORASAN',
@@ -75,32 +58,9 @@ export const projectData: ProjectData[] = [
     isInProgress: false,
     associatedExperience: 'Internship at GSSLI',
     role: 'Lead Programmer',
-    stacks: [
-      {
-        label: 'React',
-        src: 'https://cdn.svgporn.com/logos/react.svg',
-      },
-      {
-        label: 'Vite JS',
-        src: 'https://cdn.svgporn.com/logos/vitejs.svg',
-      },
-      {
-        label: 'Mantine UI',
-        src: 'https://cdn.svgporn.com/logos/mantine-icon.svg',
-      },
-      {
-        label: 'Node JS',
-        src: 'https://cdn.svgporn.com/logos/nodejs-icon.svg',
-      },
-      {
-        label: 'Express JS',
-        src: 'https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png',
-      },
-      {
-        label: 'MySQL',
-        src: 'https://cdn.svgporn.com/logos/mysql-icon.svg',
-      },
-    ],
+    githubLink: 'https://github.com/urquico/orasan-admin-client',
+    stacks: [REACT, VITE_JS, MANTINE_UI, NODE_JS, EXPRESS, MYSQL],
+    images: ['/projects/orasan-1.png', '/projects/orasan-2.png'],
   },
   {
     title: 'HealthVault',
@@ -110,39 +70,16 @@ export const projectData: ProjectData[] = [
     isInProgress: false,
     associatedExperience: 'Internship at GSSLI',
     role: 'Lead Programmer',
+    githubLink: 'https://github.com/urquico/HealthVault-CLIENT',
     stacks: [
-      {
-        label: 'Electron',
-        src: 'https://cdn.svgporn.com/logos/electron.svg',
-      },
-      {
-        label: 'Typescript',
-        src: 'https://cdn.svgporn.com/logos/typescript-icon.svg',
-      },
-      {
-        label: 'React',
-        src: 'https://cdn.svgporn.com/logos/react.svg',
-      },
-      {
-        label: 'Vite JS',
-        src: 'https://cdn.svgporn.com/logos/vitejs.svg',
-      },
-      {
-        label: 'Mantine UI',
-        src: 'https://cdn.svgporn.com/logos/mantine-icon.svg',
-      },
-      {
-        label: 'Node JS',
-        src: 'https://cdn.svgporn.com/logos/nodejs-icon.svg',
-      },
-      {
-        label: 'Express JS',
-        src: 'https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png',
-      },
-      {
-        label: 'MySQL',
-        src: 'https://cdn.svgporn.com/logos/mysql-icon.svg',
-      },
+      ELECTRON,
+      TYPESCRIPT,
+      REACT,
+      VITE_JS,
+      MANTINE_UI,
+      NODE_JS,
+      EXPRESS,
+      MYSQL,
     ],
   },
 ];
@@ -226,40 +163,21 @@ export const sideProjectData: ProjectData[] = [
     associatedExperience: 'School Project',
     role: 'Full-Stack Developer',
     stacks: [
-      {
-        label: 'Next JS',
-        src: 'https://cdn.svgporn.com/logos/nextjs-icon.svg',
-      },
-      {
-        label: 'React',
-        src: 'https://cdn.svgporn.com/logos/react.svg',
-      },
-      {
-        label: 'Mantine UI',
-        src: 'https://cdn.svgporn.com/logos/mantine-icon.svg',
-      },
-      {
-        label: 'Tailwind CSS',
-        src: 'https://cdn.svgporn.com/logos/tailwindcss-icon.svg',
-      },
-      {
-        label: 'shadcn/ui',
-        src: 'https://avatars.githubusercontent.com/u/139895814?s=200&v=4',
-      },
-      {
-        label: 'Laravel API',
-        src: 'https://cdn.svgporn.com/logos/laravel.svg',
-      },
-      {
-        label: 'MariaDB',
-        src: 'https://cdn.svgporn.com/logos/mariadb-icon.svg',
-      },
-      {
-        label: 'Microsoft Azure',
-        src: 'https://cdn.svgporn.com/logos/microsoft-azure.svg',
-      },
+      NEXT_JS,
+      REACT,
+      MANTINE_UI,
+      TAILWIND,
+      SHADCN,
+      LARAVEL,
+      MARIA_DB,
+      MS_AZURE,
     ],
     previewLink: 'https://plm-crs.vercel.app/login',
+    images: [
+      '/projects/crs-1.png',
+      '/projects/crs-2.png',
+      '/projects/crs-3.png',
+    ],
   },
 
   {
@@ -272,33 +190,13 @@ export const sideProjectData: ProjectData[] = [
     isInProgress: false,
     associatedExperience: 'School Project',
     role: 'Lead Programmer | UI/UX Lead',
-    stacks: [
-      {
-        label: 'Firebase',
-        src: 'https://cdn.svgporn.com/logos/firebase.svg',
-      },
-      {
-        label: 'Express JS',
-        src: 'https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png',
-      },
-      {
-        label: 'React',
-        src: 'https://cdn.svgporn.com/logos/react.svg',
-      },
-      {
-        label: 'Node JS',
-        src: 'https://cdn.svgporn.com/logos/nodejs-icon.svg',
-      },
-      {
-        label: 'Mantine UI',
-        src: 'https://cdn.svgporn.com/logos/mantine-icon.svg',
-      },
-      {
-        label: 'Email JS',
-        src: 'https://img.stackshare.io/service/6209/default_082f0619f4d49a25f75896e370cc67c9a3f0a4fe.jpg',
-      },
-    ],
+    stacks: [FIREBASE, EXPRESS, REACT, NODE_JS, MANTINE_UI, EMAIL_JS],
     githubLink: 'https://github.com/urquico/grievance-forum',
     previewLink: 'https://haribon-e-wall.web.app/',
+    images: [
+      '/projects/haribon-1.png',
+      '/projects/haribon-2.png',
+      '/projects/haribon-3.png',
+    ],
   },
 ];

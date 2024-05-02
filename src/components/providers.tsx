@@ -26,13 +26,17 @@ export default function Providers({ children }: { children: ReactNode }) {
       {isDomLoaded ? (
         <MantineProvider>
           {children}
-          <Affix position={{ bottom: 20, right: 20 }} className='max-md:hidden'>
+          <Affix
+            position={{ bottom: 20, right: 20 }}
+            className='max-md:hidden '
+          >
             <Transition transition='slide-up' mounted={scroll.y > 0}>
               {(transitionStyles) => (
                 <ActionIcon
                   style={transitionStyles}
                   onClick={() => scrollTo({ y: 0 })}
                   color='white'
+                  variant='default'
                 >
                   <IconArrowUp
                     style={{ width: rem(16), height: rem(16) }}
