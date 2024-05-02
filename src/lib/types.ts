@@ -48,10 +48,8 @@ export type ProjectData = {
   isInProgress: boolean;
   associatedExperience: string;
   role: string;
-  stacks: {
-    label: string;
-    src: string;
-  }[];
+  stacks: StackData[];
   githubLink?: string;
   previewLink?: string;
+  images?: string[];
 };
