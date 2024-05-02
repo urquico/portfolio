@@ -32,7 +32,7 @@ export const projectData: ProjectData[] = [
       },
       {
         label: 'Auth JS',
-        src: 'https://authjs.dev/img/logo/logo-sm.webp',
+        src: 'https://avatars.githubusercontent.com/u/67470890?s=280&v=4',
       },
       {
         label: 'MySQL',
@@ -48,6 +48,7 @@ export const projectData: ProjectData[] = [
     isInProgress: false,
     associatedExperience: 'Internship at GSSLI',
     role: 'Lead Programmer',
+    githubLink: 'https://github.com/urquico/mapa',
     stacks: [
       {
         label: 'React',
@@ -75,6 +76,7 @@ export const projectData: ProjectData[] = [
     isInProgress: false,
     associatedExperience: 'Internship at GSSLI',
     role: 'Lead Programmer',
+    githubLink: 'https://github.com/urquico/orasan-admin-client',
     stacks: [
       {
         label: 'React',
@@ -110,6 +112,7 @@ export const projectData: ProjectData[] = [
     isInProgress: false,
     associatedExperience: 'Internship at GSSLI',
     role: 'Lead Programmer',
+    githubLink: 'https://github.com/urquico/HealthVault-CLIENT',
     stacks: [
       {
         label: 'Electron',
