@@ -1,9 +1,4 @@
-type MaintenanceMessage = {
-  emoji: string;
-  title: string;
-  subtitle: string;
-  description: string;
-};
+import { MaintenanceMessage } from '../types';
 
 export const aboutMaintenance: MaintenanceMessage = {
   emoji: '🚧',

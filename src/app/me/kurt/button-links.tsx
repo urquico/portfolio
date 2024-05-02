@@ -11,6 +11,7 @@ function ButtonLinks() {
             icon={social.icon}
             path={social.path}
             label={social.label}
+            className='max-md:w-72 w-full'
           />
         );
       })}
