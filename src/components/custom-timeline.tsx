@@ -11,6 +11,7 @@ import {
 } from '@tabler/icons-react';
 
 import CustomButton from './custom-button';
+import ImageView from './image-view';
 
 function CustomTimeline({ experienceData, projectData }: TimelineType) {
   if (experienceData) {
@@ -141,6 +142,8 @@ function CustomTimeline({ experienceData, projectData }: TimelineType) {
               </Text>
             )}
           </div>
+
+          {project.images && <ImageView images={project.images} />}
 
           {project.githubLink && (
             <CustomButton

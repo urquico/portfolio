@@ -51,4 +51,5 @@ export type ProjectData = {
   stacks: StackData[];
   githubLink?: string;
   previewLink?: string;
+  images?: string[];
 };

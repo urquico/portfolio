@@ -24,13 +24,19 @@ import {
 export const projectData: ProjectData[] = [
   {
     title: 'OMMS-Next',
-    date: 'Ongoing',
+    date: '2024',
     client: 'One Man Merchandising',
     description: ['A Web-Based Application for One Man Merchandising'],
-    isInProgress: true,
+    isInProgress: false,
     associatedExperience: 'Freelance',
     role: 'Full-Stack Developer',
     stacks: [NEXT_JS, REACT, MANTINE_UI, TAILWIND, PRISMA_ORM, AUTH_JS, MYSQL],
+    images: [
+      '/projects/omms-1.png',
+      '/projects/omms-2.png',
+      '/projects/omms-3.png',
+      '/projects/omms-4.png',
+    ],
   },
   {
     title: 'MAPS',
@@ -42,6 +48,7 @@ export const projectData: ProjectData[] = [
     role: 'Lead Programmer',
     githubLink: 'https://github.com/urquico/mapa',
     stacks: [REACT, VITE_JS, LEAFLET_API, MANTINE_UI],
+    images: ['/projects/maps.png'],
   },
   {
     title: 'InternConnect: ORASAN',
@@ -53,6 +60,7 @@ export const projectData: ProjectData[] = [
     role: 'Lead Programmer',
     githubLink: 'https://github.com/urquico/orasan-admin-client',
     stacks: [REACT, VITE_JS, MANTINE_UI, NODE_JS, EXPRESS, MYSQL],
+    images: ['/projects/orasan-1.png', '/projects/orasan-2.png'],
   },
   {
     title: 'HealthVault',
@@ -165,6 +173,11 @@ export const sideProjectData: ProjectData[] = [
       MS_AZURE,
     ],
     previewLink: 'https://plm-crs.vercel.app/login',
+    images: [
+      '/projects/crs-1.png',
+      '/projects/crs-2.png',
+      '/projects/crs-3.png',
+    ],
   },
 
   {
@@ -180,5 +193,10 @@ export const sideProjectData: ProjectData[] = [
     stacks: [FIREBASE, EXPRESS, REACT, NODE_JS, MANTINE_UI, EMAIL_JS],
     githubLink: 'https://github.com/urquico/grievance-forum',
     previewLink: 'https://haribon-e-wall.web.app/',
+    images: [
+      '/projects/haribon-1.png',
+      '/projects/haribon-2.png',
+      '/projects/haribon-3.png',
+    ],
   },
 ];
