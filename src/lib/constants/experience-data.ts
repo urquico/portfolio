@@ -2,8 +2,23 @@ import { ExperienceData } from '../types';
 
 export const experienceData: ExperienceData[] = [
   {
+    title: 'Software Engineer at Dreamforge Innovations Inc.',
+    date: '2024 - Now',
+    location: 'Ortigas, Pasig City',
+    description: [
+      'Led projects with a focus on frontend development, ensuring high-quality and responsive user interfaces.',
+      'Collaborated closely with UI/UX designers to create intuitive and visually appealing designs that enhance user experience.',
+      'Worked with backend engineering teams to develop and implement algorithms that optimize system process flow, improving overall efficiency.',
+      'Performed extensive optimization on the frontend, enhancing performance and user satisfaction.',
+      'Managed Pull Requests and the staging branch for client view purposes, ensuring smooth and efficient project workflow.',
+      'Trained and mentored trainee developers, guiding and helping them integrate into the company effectively.',
+    ],
+    active: true,
+    projects: ['DSWD - Project Resolve!'],
+  },
+  {
     title: 'Freelance Full-Stack Web Developer',
-    date: '2022 - Now',
+    date: '2022 - 2024',
     location: 'Manila',
     description: ['Developing and deploying systems for clients.'],
     active: true,
