@@ -124,17 +124,19 @@ function CustomTimeline({ experienceData, projectData }: TimelineType) {
               </Text>
             ))}
 
-            <Tooltip.Group openDelay={300} closeDelay={100}>
-              <Avatar.Group spacing='xs'>
-                {project.stacks.map((stack, i) => (
-                  <Tooltip label={stack.label} withArrow key={i}>
-                    <Avatar src={stack.src} radius='xl' size='md'>
-                      <IconError404 size='1.5rem' />
-                    </Avatar>
-                  </Tooltip>
-                ))}
-              </Avatar.Group>
-            </Tooltip.Group>
+            {project.stacks && project.stacks.length > 0 && (
+              <Tooltip.Group openDelay={300} closeDelay={100}>
+                <Avatar.Group spacing='xs'>
+                  {project.stacks.map((stack, i) => (
+                    <Tooltip label={stack.label} withArrow key={i}>
+                      <Avatar src={stack.src} radius='xl' size='md'>
+                        <IconError404 size='1.5rem' />
+                      </Avatar>
+                    </Tooltip>
+                  ))}
+                </Avatar.Group>
+              </Tooltip.Group>
+            )}
 
             {project.associatedExperience.length > 0 && (
               <Text className='text-white' fz='xs' fw='bold' c='dimmed'>
