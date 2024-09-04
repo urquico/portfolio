@@ -31,7 +31,7 @@ export const projectData: ProjectData[] = [
     ],
     isInProgress: true,
     associatedExperience: 'Dreamforge Innovations Inc.',
-    role: 'Tech Lead | Front-End Developer',
+    role: 'Tech Lead | Full-Stack Developer',
   },
   {
     title: 'OMMS-Next',
