@@ -27,7 +27,7 @@ export const projectData: ProjectData[] = [
     date: '2024',
     client: 'Pasig City Hall',
     description: [
-      'A Web-based application for Pasig City Hall to streamline queueing and feedback management through web, mobile, and kiosk'
+      'A Web-based application for Pasig City Hall to streamline queueing and feedback management through web, mobile, and kiosk',
     ],
     isInProgress: true,
     associatedExperience: 'Dreamforge Innovations Inc.',
