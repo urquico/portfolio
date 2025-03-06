@@ -41,7 +41,6 @@ export const projectData: ProjectData[] = [
       'A Web-Based application for the Department of Social Welfare and Development-NCR (DSWD-NCR) designed to streamline disaster response processes, augmentation reports, and DROMIC reports. The application serves a variety of users, including the public, Quick Response Teams (QRTs), Emergency Operations Centers (EOCs), Local Government Units (LGUs), Local Chief Executives (LCEs), and the DSWD Secretary.',
     ],
     isInProgress: false,
-    isInProgress: false,
     associatedExperience: 'Dreamforge Innovations Inc.',
     role: 'Lead Developer | Full-Stack Developer',
   },
