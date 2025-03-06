@@ -24,14 +24,14 @@ import {
 export const projectData: ProjectData[] = [
   {
     title: 'Online Integrated Queueing & Feedback Management System',
-    date: '2024',
+    date: '2025',
     client: 'Pasig City Hall',
     description: [
       'A Web-based application for Pasig City Hall to streamline queueing and feedback management through web, mobile, and kiosk',
     ],
-    isInProgress: true,
+    isInProgress: false,
     associatedExperience: 'Dreamforge Innovations Inc.',
-    role: 'Tech Lead | Full-Stack Developer',
+    role: 'Lead Developer | Full-Stack Developer',
   },
   {
     title: 'Project Resolve!',
@@ -42,7 +42,7 @@ export const projectData: ProjectData[] = [
     ],
     isInProgress: false,
     associatedExperience: 'Dreamforge Innovations Inc.',
-    role: 'Tech Lead | Full-Stack Developer',
+    role: 'Lead Developer | Full-Stack Developer',
   },
   {
     title: 'OMMS-Next',

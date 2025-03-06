@@ -1,0 +1,23 @@
+{
+  "version": "0.2",
+  "ignorePaths": [],
+  "dictionaryDefinitions": [],
+  "dictionaries": [],
+  "words": [
+    "CITEM",
+    "Dreamforge",
+    "DROMIC",
+    "DSWD",
+    "Gothong",
+    "GSSLI",
+    "LARAVEL",
+    "OMMS",
+    "ORASAN",
+    "Ortigas",
+    "Pasay",
+    "Pasig",
+    "SHADCN"
+  ],
+  "ignoreWords": [],
+  "import": []
+}
