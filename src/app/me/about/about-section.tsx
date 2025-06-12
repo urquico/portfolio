@@ -3,15 +3,9 @@ import { IconArrowWaveRightDown } from '@tabler/icons-react';
 import { textVide } from 'text-vide';
 
 function AboutSection() {
-  const p1 = `Hi, I&apos;m Kurt, a passionate web developer with a focus on 
-          crafting user-friendly digital experiences. My journey began as a computer
-          science student, where I developed a fascination with web technologies and
-          honed my skills in design principles and automation innovations.`;
+  const p1 = `A Fullstack Software Engineer and Database Administrator with a strong passion for web technologies, design principles, and automation innovations.`;
 
-  const p2 = `As a student programmer, I&apos;ve created technologies using the
-          knowledge acquired over the past few years. I aspire to become a
-          Full-Stack Developer for social good, leveraging my skills to create
-          innovative solutions.`;
+  const p2 = `Brings years of hands-on experience in software development, building and maintaining systems that reflect technical expertise and a commitment to efficient, scalable solutions. An active AI user, leveraging modern tools to enhance productivity, code quality, and problem-solving. Continuously striving to grow as an established developer and future DevOps engineer.`;
 
   const bionicP1 = textVide(p1, {
     sep: ['<strong>', '</strong>'],

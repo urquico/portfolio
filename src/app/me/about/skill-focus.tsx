@@ -29,6 +29,15 @@ function SkillFocus() {
         <IconCornerDownRight size={20} className='inline-block mr-2' />{' '}
         Proficient in working with databases.
       </Text>
+      <Text className='text-white font-semibold'>Database Administration</Text>
+      <Text className='text-zinc-500 indent-6'>
+        <IconCornerDownRight size={20} className='inline-block mr-2' /> Actively
+        contributing to database administration tasks, including performance tuning, backup and recovery, and security management.
+      </Text>
+      <Text className='text-zinc-500 indent-6'>
+        <IconCornerDownRight size={20} className='inline-block mr-2' /> Developing
+        robust solutions using T-SQL. Experienced in optimizing queries, managing indexes, and ensuring data integrity across production environments.
+      </Text>
       <Text className='text-white font-semibold'>Professional Practices</Text>
       <Text className='text-zinc-500 indent-6'>
         <IconCornerDownRight size={20} className='inline-block mr-2' /> Managing
@@ -56,6 +65,13 @@ function SkillFocus() {
       <Text className='text-zinc-500 indent-6'>
         <IconCornerDownRight size={20} className='inline-block mr-2' /> Creative
         thinker who enjoys tackling complex challenges.
+      </Text>
+      <Text className='text-white font-semibold'>Server Configuration & Management</Text>
+      <Text className='text-zinc-500 indent-6'>
+        <IconCornerDownRight size={20} className='inline-block mr-2' /> Experienced in configuring and deploying web applications using Nginx and IIS for optimal performance and security.
+      </Text>
+      <Text className='text-zinc-500 indent-6'>
+        <IconCornerDownRight size={20} className='inline-block mr-2' /> Skilled in managing reverse proxy setups, load balancing, SSL certificate integration, and troubleshooting server-related issues on both Linux and Windows environments.
       </Text>
 
       {/* Links */}

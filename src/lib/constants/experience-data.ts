@@ -2,7 +2,7 @@ import { ExperienceData } from '../types';
 
 export const experienceData: ExperienceData[] = [
   {
-    title: 'Software Engineer at Dreamforge Innovations Inc.',
+    title: 'Software Engineer at Simplevia Technologies Inc.',
     date: '2024 - Now',
     location: 'Ortigas, Pasig City',
     description: [
