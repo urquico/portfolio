@@ -16,7 +16,7 @@ function Carousel() {
   const testimonials = [
     {
       name: 'Lambert Dela Cruz',
-      role: 'Cloud Engineer',
+      role: 'Site Reliability Engineer @ Maya',
       quote:
         "I've worked with Kurt in a big project in our university. Kurt is a hardworking (and) passionate individual who drove our product engineering into success. he contributed significantly to both the front-end and back-end components of our project, showcasing his versatility and deep understanding of Full Stack Development.",
       image: '/',

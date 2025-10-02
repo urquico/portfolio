@@ -3,21 +3,9 @@ import { IconArrowWaveRightDown } from '@tabler/icons-react';
 import { textVide } from 'text-vide';
 
 function AboutSection() {
-  const p1 = `Hi, I&apos;m Kurt, a passionate web developer with a focus on 
-          crafting user-friendly digital experiences. My journey began as a computer
-          science student, where I developed a fascination with web technologies and
-          honed my skills in design principles and automation innovations.`;
-
-  const p2 = `As a student programmer, I&apos;ve created technologies using the
-          knowledge acquired over the past few years. I aspire to become a
-          Full-Stack Developer for social good, leveraging my skills to create
-          innovative solutions.`;
+  const p1 = `A versatile Fullstack Software Engineer passionate about web technologies, design, and automation. Recognized as a multi-disciplinary engineer with expertise in Java Spring Boot, .NET, NestJS, and Laravel for backend, and React.js, Next.js, and Nuxt.js for frontend. Skilled with MySQL, NoSQL, and PostgreSQL, delivering scalable and efficient solutions. An active AI user, leveraging modern tools to boost productivity and problem-solving, while continuously growing towards DevOps engineering.`;
 
   const bionicP1 = textVide(p1, {
-    sep: ['<strong>', '</strong>'],
-  });
-
-  const bionicP2 = textVide(p2, {
     sep: ['<strong>', '</strong>'],
   });
 
@@ -29,9 +17,6 @@ function AboutSection() {
       </Text>
       <Text className='text-zinc-500 text-sm indent-4 text-justify'>
         <div dangerouslySetInnerHTML={{ __html: bionicP1 }} />
-      </Text>
-      <Text className='text-zinc-500 text-sm indent-4 text-justify'>
-        <div dangerouslySetInnerHTML={{ __html: bionicP2 }} />
       </Text>
     </div>
   );

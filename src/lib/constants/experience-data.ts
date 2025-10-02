@@ -2,8 +2,23 @@ import { ExperienceData } from '../types';
 
 export const experienceData: ExperienceData[] = [
   {
-    title: 'Software Engineer at Dreamforge Innovations Inc.',
-    date: '2024 - Now',
+    title: 'Software Developer at TryCanSoft',
+    date: '2025 - 2025',
+    location: 'BGC, Taguig City',
+    description: [
+      'Enhanced and maintained transaction processing systems by implementing bug fixes and performance improvements.',
+      'Developed and optimized RESTful API endpoints in both Java Spring Boot and Node.js to handle high-volume requests efficiently.',
+      'Implemented and managed task schedulers to automate critical processes such as settlements, reconciliations, and data synchronization.',
+      'Automated repetitive and time-consuming tasks such as prompt generation and AI-powered image generation to improve efficiency and reduce manual workload.',
+      'Integrated third-party APIs to support seamless transactions, wallet operations, and real-time data exchange.',
+      'Collaborated with cross-functional teams to ensure secure, reliable, and scalable backend operations.',
+    ],
+    active: false,
+    projects: [],
+  },
+  {
+    title: 'Software Engineer at Simplevia Technologies Inc.',
+    date: '2024 - 2025',
     location: 'Ortigas, Pasig City',
     description: [
       'Led projects with a focus on frontend development, ensuring high-quality and responsive user interfaces.',
@@ -13,7 +28,7 @@ export const experienceData: ExperienceData[] = [
       'Managed Pull Requests and the staging branch for client view purposes, ensuring smooth and efficient project workflow.',
       'Trained and mentored trainee developers, guiding and helping them integrate into the company effectively.',
     ],
-    active: true,
+    active: false,
     projects: ['DSWD - Project Resolve!'],
   },
   {

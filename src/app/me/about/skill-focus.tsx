@@ -27,8 +27,13 @@ function SkillFocus() {
       </Text>
       <Text className='text-zinc-500 indent-6'>
         <IconCornerDownRight size={20} className='inline-block mr-2' />{' '}
+        Developing real-time APIs with WebSockets and Server-Sent Events (SSE).
+      </Text>
+      <Text className='text-zinc-500 indent-6'>
+        <IconCornerDownRight size={20} className='inline-block mr-2' />{' '}
         Proficient in working with databases.
       </Text>
+
       <Text className='text-white font-semibold'>Professional Practices</Text>
       <Text className='text-zinc-500 indent-6'>
         <IconCornerDownRight size={20} className='inline-block mr-2' /> Managing
